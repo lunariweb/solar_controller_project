@@ -1,0 +1,91 @@
+.login {
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: auto; /*use this to center a div*/
+  height: 40vh;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+
+.login__header {
+  border-bottom: 1px solid lightgray;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.login__header > h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.login__form {
+  display: flex;
+}
+
+.form {
+  display: flex;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 10%;
+  flex-direction: column;
+}
+
+.input__up {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.input__up:focus-within {
+  border: none;
+}
+
+.input__loginBtn {
+  padding: 10px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.input__loginBtn:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.register__btn {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.register__btn > p {
+  color: white;
+  font-size: 18px;
+}
+
+.register__btn > p > a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.register__btn > p > a:hover {
+  text-decoration: underline;
+}
