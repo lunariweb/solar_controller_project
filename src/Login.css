@@ -89,3 +89,17 @@
 .register__btn > p > a:hover {
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 768px) {
+  .login {
+    height: 45vh;
+  }
+
+  .form {
+    max-width: 300px;
+  }
+
+  .input__loginBtn {
+    font-weight: 400;
+  }
+}
